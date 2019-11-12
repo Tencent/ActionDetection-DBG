@@ -19,9 +19,9 @@ In this repo, we propose a novel and unified action detection framework, named D
 
 * [Paper Introduction](#paper-introduction)
 * [Prerequisites](#prerequisites)
-* [Getting Started](#getting_started)
+* [Getting Started](#getting-started)
 * [Citation](#citation)
-* [Concat](#concat)
+* [Concat](#contact)
 
 ## Paper Introduction
 
