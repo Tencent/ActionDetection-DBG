@@ -31,7 +31,7 @@ This paper introduces a novel and unified temporal action proposal generator nam
 
 ### ActivityNet1.3 Results
 <p align='center'>
- <img src="./figures/ActivityNet.PNG" width = "1000px" alt="image" align=center />
+ <img src="./figures/ActivityNet.PNG" width = "800px" alt="image" align=center />
 </p>
 
 ### THUMOS14 Results
@@ -41,7 +41,7 @@ This paper introduces a novel and unified temporal action proposal generator nam
 
 ### Qualitative Results
 <p align='center'>
-  <img src='./figures/Qualitative.PNG' width=1000'/>
+  <img src='./figures/Qualitative.PNG' width=800'/>
 </p>
 
 ## Prerequisites
