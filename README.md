@@ -69,11 +69,11 @@ Prepare ActivityNet 1.3 dataset. You can use [official ActivityNet downloader](h
 
 Extract visual feature, we adopt TSN model pretrained on the training set of ActivityNet, Please refer this repo [TSN-yjxiong](https://github.com/yjxiong/temporal-segment-networks) to extract frames and optical flow and refer this repo [anet2016-cuhk](https://github.com/yjxiong/anet2016-cuhk) to find pretrained TSN model.
 
-For convenience of training and testing, we rescale the feature length of all videos to same length 100, and we provide the 19994 rescaled feature at here [Google Cloud](https://drive.google.com/file/d/1ISemndlSDS2FtqQOKL0t3Cjj9yk2yznF/view?usp=sharing) or [微云](https://share.weiyun.com/5FD85UY).
+For convenience of training and testing, we rescale the feature length of all videos to same length 100, and we provide the 19994 rescaled feature at here [Google Cloud](https://drive.google.com/file/d/1MYzegWXgfZd-DD9gi_GPyZ_YAN5idiFV/view?usp=sharing) or [微云](https://share.weiyun.com/5FD85UY).
 
 ### Runing of DBG
 
-Set parameters on `config.yaml` and use a script to run DBG
+You can download our [pretrained model](https://drive.google.com/file/d/178bWI_NsijkE5d-9lMXyt9Yk1rS9kuEG/view?usp=sharing) for evaluation. Set parameters on `config.yaml` and use a script to run DBG
 
 ```
 bash auto_run.sh
