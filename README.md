@@ -32,9 +32,7 @@ This paper introduces a novel and unified temporal action proposal generator nam
 <p align='center'>
  <img src="./figures/Activitynet.PNG" width = "700px" alt="image" align=center />
 </p>
-<p align='center'>
-  <img src="./figures/Activitynet_leadboard.PNG" width = "1000px" alt="image" align=center />
-</p>
+
 ### THUMOS14 Results
 <p align='center'>
  <img src="./figures/THUMOS14v3.PNG" width = "1000px" alt="image" align=center />
