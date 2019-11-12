@@ -3,7 +3,8 @@
 [![License](https://img.shields.io/badge/license-BSD-blue.svg)](LICENSE)
 
 By Chuming Lin*, [Jian Li*](https://lijiannuist.github.io/), [Yabiao Wang](https://github.com/ChaunceyWang), [Ying Tai](https://tyshiwo.github.io/), Donghao Luo, Zhipeng Cui, Chengjie Wang, Jilin Li, Feiyue Huang.
-( *indicates equal contributions)
+
+*indicates equal contributions
 
 ## Update
 
