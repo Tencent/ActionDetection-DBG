@@ -2,7 +2,7 @@
 
 [![License](https://img.shields.io/badge/license-BSD-blue.svg)](LICENSE)
 
-By [Chuming Lin*](https://github.com/linchuming), [Jian Li*](https://lijiannuist.github.io/), [Yabiao Wang](https://github.com/ChaunceyWang), [Ying Tai](https://tyshiwo.github.io/), Donghao Luo, Zhipeng Cui, Chengjie Wang, Jilin Li, Feiyue Huang.
+By [Chuming Lin*](https://github.com/linchuming), [Jian Li*](https://lijiannuist.github.io/), [Yabiao Wang](https://github.com/ChaunceyWang), [Ying Tai](https://tyshiwo.github.io/), Donghao Luo, Zhipeng Cui, Chengjie Wang, Jilin Li, Feiyue Huang, Rongrong Ji.
 
 *indicates equal contributions
 
@@ -97,7 +97,7 @@ python post_processing.py output/result output/result_proposal.json
 If you find DBG useful in your research, please consider citing: 
 ```
 @inproceedings{DBG2020arXiv,
-  author    = {Chuming Lin*, Jian Li*, Yabiao Wang, Ying Tai, Donghao Luo, Zhipeng Cui, Chengjie Wang, Jilin Li, Feiyue Huang},
+  author    = {Chuming Lin*, Jian Li*, Yabiao Wang, Ying Tai, Donghao Luo, Zhipeng Cui, Chengjie Wang, Jilin Li, Feiyue Huang, Rongrong Ji},
   title     = {Fast Learning of Temporal Action Proposal via Dense Boundary Generator},
   booktitle   = {AAAI Conference on Artificial Intelligence},
   year      = {2020},
