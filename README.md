@@ -25,7 +25,7 @@ In this repo, we propose a novel and unified action detection framework, named D
 
 ## Paper Introduction
 
- <img src="./figures/framework.PNG" width = "1000px" alt="image" align=center />
+ <img src="./figures/frameworkv2.PNG" width = "1000px" alt="image" align=center />
 
 This paper introduces a novel and unified temporal action proposal generator named Dense Boundary Generator (DBG). In this work, we propose dual stream BaseNet to generate two different level and more discriminative features. We then adopt a temporal boundary classification module to predict precise temporal boundaries, and an action-aware completeness regression module to provide reliable action completeness confidence.
 
