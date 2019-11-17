@@ -66,6 +66,9 @@ def model(x, name='model', training=False):
 
         return scores, iou_mat, x1, x2, xc, prop_start, prop_end
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> d0ce64a2678aa11de7d2698263df36b082bfae09
 
 
 if __name__ == '__main__':
@@ -86,5 +89,8 @@ if __name__ == '__main__':
     out = sess.run([scores, iou_mat, prop_start, prop_end])
     end = time.time()
     print('inference time:', end - start)
+<<<<<<< HEAD
 =======
 >>>>>>> update DBG
+=======
+>>>>>>> d0ce64a2678aa11de7d2698263df36b082bfae09

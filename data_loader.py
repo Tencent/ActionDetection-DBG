@@ -1,8 +1,12 @@
 import json
 <<<<<<< HEAD
+<<<<<<< HEAD
 import os
 =======
 >>>>>>> update DBG
+=======
+import os
+>>>>>>> d0ce64a2678aa11de7d2698263df36b082bfae09
 import random
 
 import numpy as np
@@ -17,6 +21,9 @@ tgap = 1.0 / tscale
 
 video_info_file = dbg_config.video_info_file
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> d0ce64a2678aa11de7d2698263df36b082bfae09
 video_filter = dbg_config.video_filter
 video_filter_file = dbg_config.video_filter_file
 data_dir = dbg_config.feat_dir
@@ -27,9 +34,12 @@ train_video_mean_len = []
 
 gt_len_mode = 1
 gt_len_ratio = 2
+<<<<<<< HEAD
 =======
 data_dir = dbg_config.feat_dir
 >>>>>>> update DBG
+=======
+>>>>>>> d0ce64a2678aa11de7d2698263df36b082bfae09
 
 
 def load_json(file):
@@ -44,13 +54,19 @@ def getDatasetDict():
     json_data = load_json(video_info_file)
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> d0ce64a2678aa11de7d2698263df36b082bfae09
     # load filter video name
     filter_df = pd.read_csv(video_filter_file)
     filter_video_names = filter_df.video_name.values[:]
     filter_video_names = set(filter_video_names)
 
+<<<<<<< HEAD
 =======
 >>>>>>> update DBG
+=======
+>>>>>>> d0ce64a2678aa11de7d2698263df36b082bfae09
     database = json_data
     train_dict = {}
     val_dict = {}
@@ -58,10 +74,15 @@ def getDatasetDict():
     video_lists = list(json_data.keys())
     for video_name in video_lists[:]:
 <<<<<<< HEAD
+<<<<<<< HEAD
         if video_filter and video_name in filter_video_names:
             continue
 =======
 >>>>>>> update DBG
+=======
+        if video_filter and video_name in filter_video_names:
+            continue
+>>>>>>> d0ce64a2678aa11de7d2698263df36b082bfae09
         video_info = database[video_name]
         video_new_info = {}
         video_new_info["duration_second"] = video_info["duration"]
@@ -102,6 +123,9 @@ def iou_with_anchors(anchors_min, anchors_max, box_min, box_max):
 
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> d0ce64a2678aa11de7d2698263df36b082bfae09
 def getBatchList(numVideo, batch_size, shuffle=True):
     """Generate batch list for each epoch randomly
     """
@@ -139,8 +163,11 @@ def getBatchListTrain(numVideo, batch_size):
     return batch_video_list
 
 
+<<<<<<< HEAD
 =======
 >>>>>>> update DBG
+=======
+>>>>>>> d0ce64a2678aa11de7d2698263df36b082bfae09
 def getBatchListTest(video_dict, batch_size, shuffle=True):
     """Generate batch list during testing
     """
@@ -156,6 +183,9 @@ def getBatchListTest(video_dict, batch_size, shuffle=True):
 
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> d0ce64a2678aa11de7d2698263df36b082bfae09
 def getBatchData(video_list, data_dict):
     """Given a video list (batch), get corresponding data
     """
@@ -310,8 +340,11 @@ def getFullData(dataSet):
     return dataDict
 
 
+<<<<<<< HEAD
 =======
 >>>>>>> update DBG
+=======
+>>>>>>> d0ce64a2678aa11de7d2698263df36b082bfae09
 def getProposalDataTest(video_list, video_dict):
     """Load data during testing
     """

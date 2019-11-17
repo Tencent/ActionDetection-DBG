@@ -1,21 +1,30 @@
 dataset:
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> d0ce64a2678aa11de7d2698263df36b082bfae09
   video_info_file: ../data/video_info_19993.json
   feat_dir: /data/home/swordli/action_detection/BSN/BSN.data/tsn_anet/all_csv_mean_100/
   iou_label_dir: ../data/iou_labels_v2/
   video_filter_file: filter_video.csv
   video_filter: true
   data_aug: true
+<<<<<<< HEAD
 =======
   video_info_file: data/video_info_19993.json
   feat_dir: data/tsn_anet/all_csv_mean_100/
 >>>>>>> update DBG
+=======
+>>>>>>> d0ce64a2678aa11de7d2698263df36b082bfae09
   tscale: 100
   feature_dim: 400
 
 saver:
   root_dir: output
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> d0ce64a2678aa11de7d2698263df36b082bfae09
   #checkpoint_dir: model
   checkpoint_dir: pretrained_model
   result_dir: result
@@ -25,11 +34,14 @@ training:
   lr_epochs: [8, 4]
   batch_size: 16
 
+<<<<<<< HEAD
 =======
   checkpoint_dir: pretrained_model
   result_dir: result
 
 >>>>>>> update DBG
+=======
+>>>>>>> d0ce64a2678aa11de7d2698263df36b082bfae09
 testing:
   mode: validation
   # mode: testing

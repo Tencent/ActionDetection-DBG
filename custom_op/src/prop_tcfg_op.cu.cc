@@ -30,9 +30,13 @@ namespace tensorflow {
 				else {
 					float flen = w - h;
 <<<<<<< HEAD
+<<<<<<< HEAD
 					/*float flen = 10.0;*/
 =======
 >>>>>>> update DBG
+=======
+					/*float flen = 10.0;*/
+>>>>>>> d0ce64a2678aa11de7d2698263df36b082bfae09
 					float start, step, region_len;
 					float idx, l_w, r_w;
 					int l_idx, r_idx;
@@ -113,9 +117,13 @@ namespace tensorflow {
 				else {
 					float flen = w - h;
 <<<<<<< HEAD
+<<<<<<< HEAD
 					/*float flen = 10.0;*/
 =======
 >>>>>>> update DBG
+=======
+					/*float flen = 10.0;*/
+>>>>>>> d0ce64a2678aa11de7d2698263df36b082bfae09
 					float start, step, region_len;
 					float idx, l_w, r_w;
 					int l_idx, r_idx;
@@ -221,9 +229,13 @@ namespace tensorflow {
 				if (h <= w) {
 					float flen = w - h;
 <<<<<<< HEAD
+<<<<<<< HEAD
 					//float flen = 10;
 =======
 >>>>>>> update DBG
+=======
+					//float flen = 10;
+>>>>>>> d0ce64a2678aa11de7d2698263df36b082bfae09
 					float start, step, region_len;
 					float idx, l_w, r_w;
 					int l_idx, r_idx;
@@ -297,9 +309,13 @@ namespace tensorflow {
 				if (h <= w) {
 					float flen = w - h;
 <<<<<<< HEAD
+<<<<<<< HEAD
 					//float flen = 10;
 =======
 >>>>>>> update DBG
+=======
+					//float flen = 10;
+>>>>>>> d0ce64a2678aa11de7d2698263df36b082bfae09
 					float start, step, region_len;
 					float idx, l_w, r_w;
 					int l_idx, r_idx;

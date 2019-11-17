@@ -59,6 +59,9 @@ def plot_metric(average_nr_proposals, average_recall, recall, tiou_thresholds=np
 eval_file = args.file_name
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> d0ce64a2678aa11de7d2698263df36b082bfae09
 AUCs = []
 AR100s = []
 for json_name in ['../data/short_len_videos_0.0_0.1.json',
@@ -88,9 +91,12 @@ for AR100 in AR100s:
     print(AR100)
 
 json_name = '../data/activity_net_1_3_new.json'
+<<<<<<< HEAD
 =======
 json_name = 'data/activity_net_1_3_new.json'
 >>>>>>> update DBG
+=======
+>>>>>>> d0ce64a2678aa11de7d2698263df36b082bfae09
 uniform_average_nr_proposals_valid, uniform_average_recall_valid, uniform_recall_valid = run_evaluation(
     json_name,
     eval_file,

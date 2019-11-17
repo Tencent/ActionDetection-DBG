@@ -20,6 +20,9 @@ class DBGConfig():
         """
         dataset_info = data['dataset']
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> d0ce64a2678aa11de7d2698263df36b082bfae09
         self.feat_dir = dataset_info['feat_dir']
         self.video_filter = dataset_info['video_filter']
         self.tscale = dataset_info['tscale']
@@ -27,11 +30,14 @@ class DBGConfig():
         self.video_filter_file = dataset_info['video_filter_file']
         self.iou_label_dir = dataset_info['iou_label_dir']
         self.data_aug = dataset_info['data_aug']
+<<<<<<< HEAD
 =======
         self.video_info_file = dataset_info['video_info_file']
         self.feat_dir = dataset_info['feat_dir']
         self.tscale = dataset_info['tscale']
 >>>>>>> update DBG
+=======
+>>>>>>> d0ce64a2678aa11de7d2698263df36b082bfae09
         self.feature_dim = dataset_info['feature_dim']
 
         saver_info = data['saver']
@@ -44,6 +50,9 @@ class DBGConfig():
             os.makedirs(self.result_dir)
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> d0ce64a2678aa11de7d2698263df36b082bfae09
         training_info = data['training']
         learning_rate = training_info['learning_rate']
         lr_epochs = training_info['lr_epochs']
@@ -54,8 +63,11 @@ class DBGConfig():
         self.epoch_num = len(self.learning_rate)
         self.batch_size = training_info['batch_size']
 
+<<<<<<< HEAD
 =======
 >>>>>>> update DBG
+=======
+>>>>>>> d0ce64a2678aa11de7d2698263df36b082bfae09
         testing_info = data['testing']
         self.test_mode = testing_info['mode']
         self.test_batch_size= testing_info['batch_size']

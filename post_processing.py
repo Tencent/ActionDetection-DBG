@@ -13,11 +13,15 @@ parser.add_argument('input_dir', type=str)
 parser.add_argument('output_file', type=str)
 parser.add_argument('top_number', type=int, nargs='?', default=100)
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> d0ce64a2678aa11de7d2698263df36b082bfae09
 parser.add_argument('-t', '--thread', type=int, nargs='?', default=16)
 parser.add_argument('-m', '--mode', type=str, nargs='?', default='validation')
 args = parser.parse_args()
 
 video_info_file = '../data/video_info_19993.json'
+<<<<<<< HEAD
 =======
 parser.add_argument('-t', '--thread', type=int, nargs='?', default=8)
 parser.add_argument('-m', '--mode', type=str, nargs='?', default='validation')
@@ -25,6 +29,8 @@ args = parser.parse_args()
 
 video_info_file = 'data/video_info_19993.json'
 >>>>>>> update DBG
+=======
+>>>>>>> d0ce64a2678aa11de7d2698263df36b082bfae09
 top_number = args.top_number
 thread_num = args.thread
 
