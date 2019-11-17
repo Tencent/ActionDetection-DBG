@@ -19,9 +19,31 @@ class DBGConfig():
         """ Parse config info
         """
         dataset_info = data['dataset']
+<<<<<<< HEAD
         self.video_info_file = dataset_info['video_info_file']
         self.feat_dir = dataset_info['feat_dir']
         self.tscale = dataset_info['tscale']
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> d0ce64a2678aa11de7d2698263df36b082bfae09
+        self.feat_dir = dataset_info['feat_dir']
+        self.video_filter = dataset_info['video_filter']
+        self.tscale = dataset_info['tscale']
+        self.video_info_file = dataset_info['video_info_file']
+        self.video_filter_file = dataset_info['video_filter_file']
+        self.iou_label_dir = dataset_info['iou_label_dir']
+        self.data_aug = dataset_info['data_aug']
+<<<<<<< HEAD
+=======
+        self.video_info_file = dataset_info['video_info_file']
+        self.feat_dir = dataset_info['feat_dir']
+        self.tscale = dataset_info['tscale']
+>>>>>>> update DBG
+=======
+>>>>>>> d0ce64a2678aa11de7d2698263df36b082bfae09
+>>>>>>> 866c21db4d01ab64bb8ef60fb1f456c2b0c8f380
         self.feature_dim = dataset_info['feature_dim']
 
         saver_info = data['saver']
@@ -33,6 +55,28 @@ class DBGConfig():
         if not os.path.exists(self.result_dir):
             os.makedirs(self.result_dir)
 
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> d0ce64a2678aa11de7d2698263df36b082bfae09
+        training_info = data['training']
+        learning_rate = training_info['learning_rate']
+        lr_epochs = training_info['lr_epochs']
+        assert len(learning_rate) == len(lr_epochs)
+        self.learning_rate = []
+        for lr, n in zip(learning_rate, lr_epochs):
+            self.learning_rate.extend([lr] * n)
+        self.epoch_num = len(self.learning_rate)
+        self.batch_size = training_info['batch_size']
+
+<<<<<<< HEAD
+=======
+>>>>>>> update DBG
+=======
+>>>>>>> d0ce64a2678aa11de7d2698263df36b082bfae09
+>>>>>>> 866c21db4d01ab64bb8ef60fb1f456c2b0c8f380
         testing_info = data['testing']
         self.test_mode = testing_info['mode']
         self.test_batch_size= testing_info['batch_size']

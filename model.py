@@ -65,3 +65,35 @@ def model(x, name='model', training=False):
         prop_end = p2[:, :, :, 1:2]
 
         return scores, iou_mat, x1, x2, xc, prop_start, prop_end
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> d0ce64a2678aa11de7d2698263df36b082bfae09
+
+
+if __name__ == '__main__':
+    """ test model
+    """
+    x = tf.zeros([1, 100, 400])
+    scores, iou_mat, x1, x2, x3, prop_start, prop_end = model(x)
+    print(scores, iou_mat)
+    sess = tf.Session()
+    sess.run(tf.global_variables_initializer())
+    out = sess.run([scores, iou_mat, prop_start, prop_end])
+    print(out[0].shape, out[1].shape)
+    import time
+
+    out = sess.run([scores, iou_mat, prop_start, prop_end])
+    out = sess.run([scores, iou_mat, prop_start, prop_end])
+    start = time.time()
+    out = sess.run([scores, iou_mat, prop_start, prop_end])
+    end = time.time()
+    print('inference time:', end - start)
+<<<<<<< HEAD
+=======
+>>>>>>> update DBG
+=======
+>>>>>>> d0ce64a2678aa11de7d2698263df36b082bfae09
+>>>>>>> 866c21db4d01ab64bb8ef60fb1f456c2b0c8f380

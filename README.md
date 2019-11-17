@@ -46,10 +46,29 @@ This paper introduces a novel and unified temporal action proposal generator nam
 
 ## Prerequisites
 
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> d0ce64a2678aa11de7d2698263df36b082bfae09
+- Tensorflow == 1.9
+- Python == 3.6
+- NVIDIA GPU == Tesla P40 
+- Linux CUDA CuDNN
+<<<<<<< HEAD
+=======
+>>>>>>> 866c21db4d01ab64bb8ef60fb1f456c2b0c8f380
 - Tensorflow == 1.9.0
 - Python == 3.6
 - NVIDIA GPU == Tesla P40 
 - Linux CUDA 9.0 CuDNN
+<<<<<<< HEAD
+=======
+>>>>>>> update DBG
+=======
+>>>>>>> d0ce64a2678aa11de7d2698263df36b082bfae09
+>>>>>>> 866c21db4d01ab64bb8ef60fb1f456c2b0c8f380
 
 ## Getting Started
 
@@ -68,6 +87,20 @@ Prepare ActivityNet 1.3 dataset. You can use [official ActivityNet downloader](h
 
 Extract visual feature, we adopt TSN model pretrained on the training set of ActivityNet, Please refer this repo [TSN-yjxiong](https://github.com/yjxiong/temporal-segment-networks) to extract frames and optical flow and refer this repo [anet2016-cuhk](https://github.com/yjxiong/anet2016-cuhk) to find pretrained TSN model.
 
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> d0ce64a2678aa11de7d2698263df36b082bfae09
+For convenience of training and testing, we rescale the feature length of all videos to same length 100, and we provide the 19994 rescaled feature at here [Google Cloud](https://drive.google.com/file/d/1MYzegWXgfZd-DD9gi_GPyZ_YAN5idiFV/view?usp=sharing) or [微云](https://share.weiyun.com/5FD85UY).
+
+### Runing of DBG
+
+You can download our [pretrained model](https://drive.google.com/file/d/178bWI_NsijkE5d-9lMXyt9Yk1rS9kuEG/view?usp=sharing) for evaluation. Set parameters on `config.yaml` and use a script to run DBG
+<<<<<<< HEAD
+=======
+>>>>>>> 866c21db4d01ab64bb8ef60fb1f456c2b0c8f380
 For convenience of training and testing, we rescale the feature length of all videos to same length 100, and we provide the 19993 rescaled feature at here [Google Cloud](https://drive.google.com/file/d/1MYzegWXgfZd-DD9gi_GPyZ_YAN5idiFV/view?usp=sharing) or [微云](https://share.weiyun.com/5FD85UY).
 
 ### Compile Proposal Feature Generation Layer
@@ -82,6 +115,12 @@ make
 
 Pretrained model is included in `output/pretrained_model` and set parameters on `config.yaml`.
 Please check the `feat_dir` in `config.yaml` and use a script to run DBG.
+<<<<<<< HEAD
+=======
+>>>>>>> update DBG
+=======
+>>>>>>> d0ce64a2678aa11de7d2698263df36b082bfae09
+>>>>>>> 866c21db4d01ab64bb8ef60fb1f456c2b0c8f380
 
 ```
 bash auto_run.sh
@@ -99,7 +138,17 @@ python test.py ./config.yaml
 #### 3. Evaluating
 ```
 python post_processing.py output/result output/result_proposal.json
+<<<<<<< HEAD
 python eval.py output/result_proposal.json
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+python eval.py output/result_proposal.json
+>>>>>>> update DBG
+=======
+>>>>>>> d0ce64a2678aa11de7d2698263df36b082bfae09
+>>>>>>> 866c21db4d01ab64bb8ef60fb1f456c2b0c8f380
 ```
 
 

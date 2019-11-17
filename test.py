@@ -39,7 +39,19 @@ if __name__ == "__main__":
     pstart = tf.reduce_sum(prop_start, 2) / tf.maximum(tf.reduce_sum(tf_mask, 2), 1)
     pend = tf.reduce_sum(prop_end, 1) / tf.maximum(tf.reduce_sum(tf_mask, 1), 1)
 
+<<<<<<< HEAD
     model_saver = tf.train.Saver()
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+    model_saver = tf.train.Saver(max_to_keep=80)
+=======
+    model_saver = tf.train.Saver()
+>>>>>>> update DBG
+=======
+    model_saver = tf.train.Saver(max_to_keep=80)
+>>>>>>> d0ce64a2678aa11de7d2698263df36b082bfae09
+>>>>>>> 866c21db4d01ab64bb8ef60fb1f456c2b0c8f380
     tf_config = tf.ConfigProto()
     tf_config.gpu_options.allow_growth = True
     sess = tf.InteractiveSession(config=tf_config)

@@ -58,7 +58,49 @@ def plot_metric(average_nr_proposals, average_recall, recall, tiou_thresholds=np
 
 eval_file = args.file_name
 
+<<<<<<< HEAD
 json_name = 'data/activity_net_1_3_new.json'
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> d0ce64a2678aa11de7d2698263df36b082bfae09
+AUCs = []
+AR100s = []
+for json_name in ['../data/short_len_videos_0.0_0.1.json',
+                  '../data/short_len_videos_0.1_0.2.json',
+                  '../data/short_len_videos_0.2_0.3.json',
+                  '../data/short_len_videos_0.3_0.4.json',
+                  '../data/short_len_videos_0.4_0.5.json',
+                  '../data/short_len_videos_0.5_0.6.json',
+                  '../data/short_len_videos_0.6_0.7.json',
+                  '../data/short_len_videos_0.7_0.8.json',
+                  '../data/short_len_videos_0.8_0.9.json',
+                  '../data/short_len_videos_0.9_1.0.json'
+                  ]:
+    uniform_average_nr_proposals_valid, uniform_average_recall_valid, uniform_recall_valid = run_evaluation(
+        json_name,
+        eval_file,
+        max_avg_nr_proposals=100,
+        tiou_thresholds=np.linspace(0.5, 0.95, 10),
+        subset='validation')
+    area_under_curve = np.trapz(uniform_average_recall_valid, uniform_average_nr_proposals_valid)
+    AUCs.append(area_under_curve)
+    AR100s.append(np.mean(uniform_recall_valid[:, -1]))
+
+for auc in AUCs:
+    print(auc)
+for AR100 in AR100s:
+    print(AR100)
+
+json_name = '../data/activity_net_1_3_new.json'
+<<<<<<< HEAD
+=======
+json_name = 'data/activity_net_1_3_new.json'
+>>>>>>> update DBG
+=======
+>>>>>>> d0ce64a2678aa11de7d2698263df36b082bfae09
+>>>>>>> 866c21db4d01ab64bb8ef60fb1f456c2b0c8f380
 uniform_average_nr_proposals_valid, uniform_average_recall_valid, uniform_recall_valid = run_evaluation(
     json_name,
     eval_file,
