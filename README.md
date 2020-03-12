@@ -1,4 +1,4 @@
-![](./figures/logo.png)
+![](./figures/log.png)
 ## [DBG-dense-boundary-generator](https://arxiv.org/pdf/1911.04127.pdf)
 
 ## Update
