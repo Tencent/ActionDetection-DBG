@@ -1,0 +1,22 @@
+dataset:
+  video_info_file: data/video_info_19993.json
+  feat_dir: data/tsn_anet200/all_csv_mean_100/
+  video_filter: true
+  data_aug: true
+  tscale: 100
+  feature_dim: 400
+
+saver:
+  root_dir: output
+  checkpoint_dir: model
+  result_dir: result
+
+training:
+  learning_rate: [1e-3, 1e-4]
+  lr_epochs: [8, 4]
+  batch_size: 16
+
+testing:
+  mode: validation
+  # mode: testing
+  batch_size: 16
