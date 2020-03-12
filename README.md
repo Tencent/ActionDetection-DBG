@@ -1,5 +1,5 @@
 
-<img src="./figures/log.png" width = "300px" alt="image" align=left />
+![LOGO](figures/log.png)
 
 ## [DBG-dense-boundary-generator](https://arxiv.org/pdf/1911.04127.pdf)
 
