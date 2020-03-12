@@ -1,6 +1,7 @@
 <p align='left'>
- <img src="./figures/log.png" width = "200px" alt="image" align=left />
+ <img src="./figures/log.png" width = "300px" alt="image" align=left />
 </p>
+
 
 ## [DBG-dense-boundary-generator](https://arxiv.org/pdf/1911.04127.pdf)
 
