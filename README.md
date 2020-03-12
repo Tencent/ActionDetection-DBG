@@ -1,8 +1,6 @@
 
 ![LOGO](figures/log.png)
 
-## [DBG-dense-boundary-generator](https://arxiv.org/pdf/1911.04127.pdf)
-
 ## Update
 
 * 2020.03.13: Release tensorflow-version and pytorch-version DBG complete code.
