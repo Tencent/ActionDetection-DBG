@@ -1,9 +1,5 @@
+![](./figures/logo.png)
 ## [DBG-dense-boundary-generator](https://arxiv.org/pdf/1911.04127.pdf)
-
-
-By [Chuming Lin*](https://github.com/linchuming), [Jian Li*](https://lijiannuist.github.io/), [Yabiao Wang](https://github.com/ChaunceyWang), [Ying Tai](https://tyshiwo.github.io/), Donghao Luo, Zhipeng Cui, Chengjie Wang, Jilin Li, Feiyue Huang, Rongrong Ji.
-
-*indicates equal contributions
 
 ## Update
 
@@ -84,6 +80,7 @@ Extract visual feature, we adopt TSN model pretrained on the training set of Act
 For convenience of training and testing, we rescale the feature length of all videos to same length 100, and we provide the 19993 rescaled feature at here [Google Cloud](https://drive.google.com/file/d/1MYzegWXgfZd-DD9gi_GPyZ_YAN5idiFV/view?usp=sharing) or [微云](https://share.weiyun.com/5FD85UY).
 Then put the features to `data/tsn_anet200` directory.
 
+For generating the video features, scripts in `./tools` will help you to start from scrach.
 
 ### Testing of DBG
 
