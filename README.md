@@ -1,4 +1,6 @@
-![logo](./figures/log.png)
+<p align='left'>
+ <img src="./figures/ActivityNet.PNG" width = "50px" alt="image" align=left />
+</p>
 ## [DBG-dense-boundary-generator](https://arxiv.org/pdf/1911.04127.pdf)
 
 ## Update
