@@ -1,5 +1,5 @@
 <p align='left'>
- <img src="./figures/ActivityNet.PNG" width = "50px" alt="image" align=left />
+ <img src="./figures/log.png" width = "100px" alt="image" align=left />
 </p>
 ## [DBG-dense-boundary-generator](https://arxiv.org/pdf/1911.04127.pdf)
 
