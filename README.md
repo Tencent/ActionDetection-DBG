@@ -1,5 +1,6 @@
 
-![LOGO](figures/log.png)
+
+<img src="figures/log.png" title="Logo" width="100" /> 
 
 ## Update
 
