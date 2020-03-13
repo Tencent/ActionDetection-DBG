@@ -1,6 +1,6 @@
 
 
-<img src="figures/log.png" title="Logo" width="100" /> 
+<img src="figures/log.png" title="Logo" width="300" /> 
 
 ## Update
 
