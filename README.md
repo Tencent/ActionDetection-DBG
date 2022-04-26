@@ -78,7 +78,7 @@ Prepare ActivityNet 1.3 dataset. You can use [official ActivityNet downloader](h
 
 Extract visual feature, we adopt TSN model pretrained on the training set of ActivityNet, Please refer this repo [TSN-yjxiong](https://github.com/yjxiong/temporal-segment-networks) to extract frames and optical flow and refer this repo [anet2016-cuhk](https://github.com/yjxiong/anet2016-cuhk) to find pretrained TSN model.
 
-For convenience of training and testing, we rescale the feature length of all videos to same length 100, and we provide the 19993 rescaled feature at here [Google Cloud](https://drive.google.com/file/d/1MYzegWXgfZd-DD9gi_GPyZ_YAN5idiFV/view?usp=sharing) or [微云](https://share.weiyun.com/5FD85UY).
+For convenience of training and testing, we rescale the feature length of all videos to same length 100, and we provide the 19993 rescaled feature at here [Google Cloud](https://drive.google.com/file/d/1XrLqjgiutCDYUfLYddyvALNjujHRBxXT/view?usp=sharing) or [微云](https://share.weiyun.com/7O2DUt6K).
 Then put the features to `data/tsn_anet200` directory.
 
 For generating the video features, scripts in `./tools` will help you to start from scrach.
